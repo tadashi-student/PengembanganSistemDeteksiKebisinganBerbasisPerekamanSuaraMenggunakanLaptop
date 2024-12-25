@@ -12,6 +12,14 @@ Fitur Utama
 - Simpan dan Putar Kembali Rekaman: Menyimpan rekaman sebagai file .wav dan memutar ulang hasil rekaman.
 - Pengunggahan ke Edge Impulse: Mengunggah file audio dengan label klasifikasi ke platform Edge Impulse untuk keperluan machine learning atau analisis lanjutan.
 
+Langkah Pembuatan GUI dengan Qt :
+1. Desain Antarmuka
+   - Gunakan Qt Designer untuk membuat file .ui dengan elemen seperti tombol, label, dan area plot.
+2. Konversi ke Python
+   - Konversi file .ui ke file Python menggunakan perintah: pyuic5 desain.ui -o desain.py
+3. Integrasi dengan Matplotlib
+   - Gunakan FigureCanvas dari Matplotlib untuk menampilkan grafik domain waktu dan frekuensi di dalam GUI.
+
 Cara Kerja
 1. Rekaman Audio:
    a. Klik tombol Record untuk memulai rekaman.
